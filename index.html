@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <head>
+        <title>Collecting Thanksgiving Recipes</title>
+    </head>
+    <body>
+        <h1>Collecting Thanksgiving Recipes</h1>
+
+            <!-- general info -->      
+
+        <div>
+            <label for="email">Your email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="todaysdate">Todays Date:</label>
+            <input type="date" id="todaysdate" name="todaysdate">
+        </div>
+
+        <div>
+            <label for="recipename">Recipe Name:</label>
+            <input name="recipename" type="text" id="recipename" />
+        </div>
+
+        <p>What ingredients are in your recipe?</p>
+
+             <!-- check box -->
+
+        <div>
+            <input type="checkbox" id="fruit" name="fruit" value="fruit" />
+            <label for="fruit">Fruit</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="vegetables" name="vegetables" value="vegetables" />
+            <label for="vegetables">Vegetables</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="grains" name="grains" value="grains" />
+            <label for="grains">Grains</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="dairy" name="dairy" value="dairy" />
+            <label for="dairy">Dairy</label>
+          </div>
+
+          <div>
+            <label for="recipe">What type of recipe is this?:</label>
+            <select name="recipe" id="recipe">
+              <option value="dessert">Dessert</option>
+              <option value="dinner">Dinner</option>
+              <option value="lunch">Lunch</option>
+              <option value="11pm snack">11pm Snack</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+          </div>
+         
+        <script src="js/index.js"></script>
+    </body>
+</html>
